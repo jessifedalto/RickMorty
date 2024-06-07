@@ -1,0 +1,38 @@
+.card{
+    background-color: darkseagreen;
+}
+
+.statusVenda{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:green;
+}
+
+.statusMostruario{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:red;
+}
+
+.statusAlive{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: green;
+}
+
+.statusDead{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.statusUnknown{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: grey;
+}

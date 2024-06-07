@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Perfume",
+    "desc": "Miguel Rousseouf",
+    "value": "100.00",
+    "image": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/volarium/catalog/produtos/volarium/perfume/perfume-feminino/perfume-feminino-ch-tradicional-importado-original.jpg",
+    "categoria": "Fragrâncias",
+    "status": true
+  },
+  {
+    "id": 2,
+    "name": "Colar",
+    "desc": "Jand Karno em perolas",
+    "value": "2200.00",
+    "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg",
+    "categoria": "Jóia",
+    "status": false
+  },
+  {
+    "id": 3,
+    "name": "Perfume",
+    "desc": "Dolce",
+    "value": "2200.00",
+    "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B82688/Egeo-Des-Col-Dolce-C-Car-90Ml-B82688_.jpg",
+    "categoria": "Fragrâncias",
+    "status": false
+  },
+  {
+    "id": 4,
+    "name": "Perfume",
+    "desc": "Dolce",
+    "value": "2200.00",
+    "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B82688/Egeo-Des-Col-Dolce-C-Car-90Ml-B82688_.jpg",
+    "categoria": "Fragrâncias",
+    "status": true
+  },
+  {
+    "id": 5,
+    "name": "Colar",
+    "desc": "Dolce",
+    "value": "2200.00",
+    "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B82688/Egeo-Des-Col-Dolce-C-Car-90Ml-B82688_.jpg",
+    "categoria": "Fragrâncias",
+    "status": false
+  },
+  {
+    "id": 6,
+    "name": "Perfume",
+    "desc": "Dolce",
+    "value": "2200.00",
+    "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B82688/Egeo-Des-Col-Dolce-C-Car-90Ml-B82688_.jpg",
+    "categoria": "Fragrâncias",
+    "status": true
+  }
+]
