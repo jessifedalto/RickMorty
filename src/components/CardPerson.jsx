@@ -8,7 +8,24 @@ export const CardPerson = ({name, status, especies, type, gender, image}) => {
           <p>{especies}</p>
           <p>{type}</p>
           <p>{gender}</p>
-          {status == "Alive" ? <div className={style.statusAlive}>{status}-{}</div>: status == "Dead" ? <div className={style.statusDead}></div> : <div className={style.statusUnknown}></div>}
+          {status == "Alive" ? 
+            <div className={style.wrapStatus}>
+              <div className={style.statusAlive}></div>  
+              <p>{status}</p> 
+            </div>: 
+            status == "Dead" ? 
+              <div className={style.wrapStatus}>
+                <div className={style.statusDead}></div>  
+                  <p>{status}</p> 
+              </div>: 
+              <div className={style.wrapStatus}>
+                <div className={style.statusUnknown}></div>
+                <p>{status}</p> 
+                </div>
+  }
+
+              
+         
           <img src={image} alt={name} width={150} height={"auto"}/>
       </div>
   )
