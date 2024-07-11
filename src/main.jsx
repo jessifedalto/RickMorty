@@ -6,7 +6,8 @@ import { Graph } from './Graph.jsx';
 import  Products  from './Products.jsx';
 import { Api } from './Api.jsx';
 import { Map } from './Map.jsx';
-import style from './App.module.css'
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 import {
   createBrowserRouter,
@@ -37,8 +38,10 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-      <RouterProvider router={router} />
-  </React.StrictMode>,
+  <>
+    <SpeedInsights/>
+    <Analytics/>
+    <RouterProvider router={router} />
+  </>,
 )
 
